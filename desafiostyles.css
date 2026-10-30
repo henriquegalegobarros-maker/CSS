@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+    cursor: pointer;
+}
+
+.header-link {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 100%;
+    margin-right: 32px;
+    color: #17233D;
+
+}
+
+button {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border-width: 1px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    cursor: pointer;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    display: inline-block;
+}
+
+main {
+    margin-bottom: 144px;
+}
+
+section {
+    display: inline-block;
+    margin: 0 57px 0 85px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin: 47px 0 55px 0;
+    color: #4B505A;
+}
+
+.link-main {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 100%;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0 43px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        order: 1;
+    }
+
+    img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 76px;
+    }
+
+    p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+     header {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px;
+    }
+
+    button {
+       width: 91px;
+        height: 31px;
+        font-size: 14px;
+        padding: 6px;
+        border: 1px;
+    }
+
+    .header-link {
+        display: none;
+    }
+}
